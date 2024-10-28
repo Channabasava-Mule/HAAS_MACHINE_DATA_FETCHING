@@ -8,19 +8,18 @@ import pytz
 
 # MTConnect Agent URLs
 urls = {
-    "CNC65": "http://192.168.7.100:8082/",
-    "CNC67": "http://192.168.7.97:8082/",
-    "VMC63": "http://192.168.7.102:8082/",
-    "VMC67": "http://192.168.7.52:8082/",
-    "TNC66": "http://192.168.7.50:8082/"
+    "machine_name1 : http//ip address:portnumber/",
+    "machine_name2 : http//ip address:portnumber/",
+    "machine_name3 : http//ip address:portnumber/",
+    "machine_name4 : http//ip address:portnumber/"
 }
 
 # MySQL database connection details
 DB_CONFIG = {
-    'host': 'localhost',
-    'user': 'root',
-    'password': 'rangsons',
-    'database': 'rangsons_data_acquisition',
+    'host': 'hostname',
+    'user': 'your_username',
+    'password': 'your_password',
+    'database': 'your_database_name',
     'auth_plugin': 'mysql_native_password'
 }
 
