@@ -9,10 +9,10 @@ Libraries - mtconnect,mysql-python-connector, requests.
 
 #Database Configuration
 DB_CONFIG = {
-    'host': 'localhost',
-    'user': 'root',
-    'password': 'rangsons',
-    'database': 'rangsons_data_acquisition',
+    'host': 'your_hostname',
+    'user': 'username',
+    'password': 'your_passqord',
+    'database': 'your database',
     'auth_plugin': 'mysql_native_password'
 }
 
